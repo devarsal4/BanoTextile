@@ -1,5 +1,5 @@
 
-## Portfolio using React js and styled-components 2023
+## BanoTextile Portfolio using React js and styled-components 2024
 
 
 ## Features
@@ -21,5 +21,4 @@ Developed By Arsal Rajput in 2024.
 - [Styled-Components](https://styled-components.com)
 - [React Slick](https://react-slick.neostack.com)
 - [React Awesome Reveal](https://react-awesome-reveal.morello.dev/)
-
-#banotextile# BanoTextile-2
+# BanoTextile-2
