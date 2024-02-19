@@ -1,0 +1,14 @@
+.image {
+    width: 50%; /* Adjust the size as needed */
+    height: auto;
+    transition: transform 0.8s ease-in-out;
+  }
+  
+  .animateIn {
+    transform: scale(1);
+  }
+  
+  .animateOut {
+    transform: scale(0);
+  }
+  
