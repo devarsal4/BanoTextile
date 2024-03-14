@@ -4,10 +4,7 @@ import styled from 'styled-components';
 const Header = () => {
   const [bar, setBar] = useState(false);
 
-  const handleAboutUsClick = () => {
-    // Show the About Us content in a modal
-    console.log('About Us clicked');
-  };
+
 
   return (
     <Container bar={bar}>
@@ -18,12 +15,10 @@ const Header = () => {
       <Nav bar={bar}>
         <span><a href="#home">Home</a></span>
         <span><a href="#service">Services</a></span>
-        <span><a href="#project">Categories</a></span>
-        <span><a href="#client">Certification</a></span>
+        <span><a href="#Category">Categories</a></span>
+        <span><a href="#Certification">Certification</a></span>
         <span><a href="#footer">Contact Us</a></span>
-        <span onClick={handleAboutUsClick}>
-          <a href="#aboutus">About Us</a>
-        </span>
+       
       </Nav>
       <div
         onClick={() => setBar(!bar)}
